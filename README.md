@@ -62,8 +62,7 @@ This section illustrates the step-by-step tuning of the PID controller and its i
 * **PID Gains:** P=1, I=0, D=0
 * **Observation:** Shows the inherent underdamped oscillations of the passive system with significant amplitude and slow decay. This is the baseline performance.
 
-![Passive System Response](passive_plot.png)
-
+![Passive System Response](passive_system_response.png)
 ---
 
 ### 2. P-Tuning (P=100, I=0, D=0)
@@ -71,7 +70,7 @@ This section illustrates the step-by-step tuning of the PID controller and its i
 * **PID Gains:** P=100, I=0, D=0
 * **Observation:** The system responds faster and shows a reduction in oscillation amplitude and steady-state error compared to the passive system. However, the oscillatory nature persists, and it still takes time to settle. The control force is significantly larger.
 
-![P-Tuned System Response](p_plot.png)
+![P-Tuned System Response](p_tuned_response.png)
 
 ---
 
@@ -80,7 +79,7 @@ This section illustrates the step-by-step tuning of the PID controller and its i
 * **PID Gains:** P=100, I=0, D=10
 * **Observation:** The Derivative (D) gain dramatically suppresses the oscillations and reduces overshoot. The system now settles very quickly (within a few seconds) to a steady-state value, though a small offset may still be present. The control force shows rapid initial action to dampen the motion.
 
-![PD-Tuned System Response](d_plot.png)
+![PD-Tuned System Response](pd_tuned_response.png)
 
 ---
 
@@ -89,7 +88,7 @@ This section illustrates the step-by-step tuning of the PID controller and its i
 * **PID Gains:** P=100, I=5, D=10
 * **Observation:** The Integral (I) gain effectively eliminates the remaining steady-state error, bringing the displacement precisely back to zero (or your setpoint). The system achieves optimal performance with fast damping and accurate tracking. The control force settles to a constant value, counteracting the continuous external force.
 
-![PID-Tuned System Response](i_.png)
+![PID-Tuned System Response](pid_tuned_response.png)
 
 ---
 
