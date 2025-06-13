@@ -26,12 +26,12 @@ The project is structured into two main parts:
     * This control force is fed back into the `Sum` block for `Mass 1`'s acceleration, effectively creating a closed-loop system.
     * The PID gains (P, I, D) are tuned to optimize the system's response, leading to rapid suppression of oscillations and elimination of steady-state error.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **MATLAB:** For defining system parameters and running the simulation environment.
 * **Simulink:** For graphical modeling, simulation of dynamic systems, and control system design.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -92,12 +92,12 @@ This section illustrates the step-by-step tuning of the PID controller and its i
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 * **Controller Comparison:** Implement and compare the performance of other advanced control strategies (e.g., LQR, Sliding Mode Control) against the PID controller.
 * **Robustness Analysis:** Introduce uncertainties or disturbances to system parameters and analyze the controller's robustness.
 * **Graphical User Interface (GUI):** Develop a MATLAB App Designer GUI to allow real-time adjustment of system and controller parameters, and interactive visualization.
 * **Hardware-in-the-Loop (HIL) Simulation:** Potentially integrate the model with physical hardware for real-world testing.
 
-## 👤 Author
+## Author
 Praneeth Krishna Palle
