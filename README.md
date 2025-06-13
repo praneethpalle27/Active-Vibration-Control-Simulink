@@ -52,7 +52,7 @@ The project is structured into two main parts:
 6.  Click the "Run" button (green triangle) in the Simulink toolbar.
 7.  Double-click the `Scope` blocks (e.g., `x1 Scope`, `Control Force Scope`) to view the simulation results.
 
-## 📈 PID Tuning Process & Results
+## PID Tuning Process & Results
 
 This section illustrates the step-by-step tuning of the PID controller and its impact on the system's vibration response, using the parameters:
 `m1 = 20`, `m2 = 20`, `k1 = 16`, `k2 = 10`, `c1 = 10`, `c2 = 10`, `f = 10`.
